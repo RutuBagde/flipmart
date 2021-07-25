@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping Site-Flipmart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="flipmart.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+<body>
+<!--making the navigation with logo and search bar-->
+  <nav class="heading_navigation flex" id="navigation_heading">
+<!--making the nav container for max width-->
+    <div class="nav_container flex">
+      <div class="logo flex">
+        <a href="flipmart.html" class="flip logo"><img src="flipmart.png" alt="logo" height="33px"></a>
+
+      </div>
+<!--making the searchbar-->
+      <div class="search_bar_container">
+         <div class="search_bar">
+           <form class="search flex">
+             <input type="text" placeholder="Search for products, brands and more" class="search_box"/>
+             <button class="bt_search"><i class="fa fa-search"></i></button>
+           </form>
+         </div>
+       </div>
+       
+ <!--making the login button-->
+  <div>
+ <button class="login_btn" id="login">login</button>
+     <div class="main" id="model">
+          <div class="containt">
+               <span class="close" id="close">X</span>
+               <input type="email" name="email" id="email" placeholder="enter email"/>
+               <br>
+               <input type="password" name="email" id="pass" placeholder="password"/>
+               <br>
+               <div  class="button">
+                    <button class="btn" onclick="mylogin()">login here</button>
+               </div>
+          </div>
+     </div>
+          <script src="mymodel.js"></script>
+ </div>
+<!-- making the more button-->
+       <div class="more">
+         <span class="more_lan">More</span>
+         
+       </div>
+    <!-- making the cart button-->
+    <div class="cart">
+      <span class="cart_lan"><i class="fa fa-shopping-cart"></i>Cart</span>
+    </div>
+</div>
+</nav>
+  <!--making the heading categories-->
+  <div class="heading_categories flex">
+    <ul class="heading_category_list flex">
+      <li class="heading_category_items">
+        <img src="watches.jpg"  class="cat_image">
+        <p class="heading_item_name">Watches </p></li>
+      <li class="heading_category_items">
+        <img src="mobile.jpeg"  class="cat_image">
+        <p class="heading_item_name">Mobiles</p></li>
+      <li class="heading_category_items">
+        <img src="fashion.jpeg"class="cat_image">
+        <p class="heading_item_name">Fashion </p></li>
+      <li class="heading_category_items">
+        <img src="electronics.jpeg" class="cat_image">
+        <p class="heading_item_name">Electronics</p></li>
+      <li class="heading_category_items">
+        <img src="appliences.jpeg" class="cat_image">
+        <p class="heading_item_name">Appliances </i></p></li>
+      <li class="heading_category_items">
+        <img src="travel.jpeg"  class="cat_image">
+        <p class="heading_item_name">Travel</p></li>
+      <li class="heading_category_items">
+        <img src="beauty.jpeg" class="cat_image">
+        <p class="heading_item_name">Beauty, Toys & More</p></li>
+    </ul>
+  </div>
+ <!--banner section-->
+ <section>
+   <div class="banner">
+     <div class="slider">
+       <img src="bannner1.png" alt="banner">
+       <img src="banner2.png" alt="banner">
+       <img src="banner3.png" alt="banner">
+       <img src="banner4.png" alt="banner">
+     </div>
+   </div>
+ </section>
+ <!--fashion section-->
+ <section>
+   <div class="card">
+     <div class="common-heading">
+      <div class="common-heading-left">
+        <h1>Womens Fashion wear</h1>
+        <h2>Min 40% off </h2>
+      </div>
+      <div class="common-heading-right">
+        <button>view all</button>
+      </div>
+    </div>
+    <div class="common-row">
+      <div class="common-col">
+        <img src="lehenga.jpeg" alt="lehenga">
+        <h3>lehenga</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>449</h6>
+      </div>
+      <div class="common-col">
+        <img src="indowestern.jpeg" alt="indowestern" width="60" height="100">
+        <h3>indo western</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>599</h6>
+      </div>
+      <div class="common-col">
+        <img src="sarees.jpeg" alt="saree">
+        <h3>sarees</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>349</h6>
+      </div>
+      <div class="common-col">
+        <img src="shorts.jpeg" alt="mobile">
+        <h3>shorts</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>99</h6>
+      </div>
+      <div class="common-col">
+        <img src="tops.jpeg" alt="tops">
+        <h3>tops</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>99</h6>
+      </div>
+      <div class="common-col">
+        <img src="jeans.jpeg" alt="jeans">
+        <h3>jeans</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>349</h6>
+      </div>
+      <div class="common-col">
+        <img src="dress.jpeg" alt="dresses">
+        <h3>dresses</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>299</h6>
+      </div>
+      <div class="common-col">
+        <img src="partywear.jpeg" alt="partywear">
+        <h3>partywear</h3>
+        <h6>Starting<i class="fa fa-rupee"></i>499</h6>
+      </div>
+    </div>
+  </div>
+</section>
+   <!--Mens clothing-->
+<section>
+  <div class="card">
+    <div class="common-heading">
+     <div class="common-heading-left">
+       <h1>Mens Clotthing</h1>
+       <h2>Upto 70% off</h2>
+     </div>
+     <div class="common-heading-right">
+       <button>view all</button>
+     </div>
+   </div>
+   <div class="common-row">
+     <div class="common-col col-men">
+       <img src="tshirts.jpeg" alt="tshirts">
+       <h3>T-shirts</h3>
+      
+       <h6>Starting<i class="fa fa-rupee"></i>299</h6>
+     </div>
+     <div class="common-col col-men">
+       <img src="formalshirts.jpeg" alt="formalshirts">
+       <h3>Formal Shirts</h3>
+       
+       <h6>Starting<i class="fa fa-rupee"></i>499</h6>
+     </div>
+     <div class="common-col col-men">
+       <img src="casual.jpeg" alt="casualshirts">
+       <h3>Casual Shirts</h3>
+       
+       <h6>Now<i class="fa fa-rupee"></i>299</h6>
+     </div>
+     <div class="common-col col-men">
+       <img src="jackets.jpeg" alt="jackets">
+       <h3>Jackets/h3>
+       
+       <h6>Starting<i class="fa fa-rupee"></i>599</h6>
+     </div>
+     <div class="common-col col-men">
+       <img src="blasers.jpeg" alt="suits">
+       <h3>Suits</h3>
+       <h6>Starting<i class="fa fa-rupee"></i>699</h6>
+     </div>
+     <div class="common-col col-men">
+       <img src="trousers.jpeg" alt="trousers">
+       <h3>Trousers</h3>
+       
+       <h6>Starting<i class="fa fa-rupee"></i>499</h6>
+     </div>
+     <div class="common-col col-men">
+       <img src="jeansmen.jpeg" alt="mensjeans">
+       <h3>Jeans</h3>
+      
+       <h6>Starting<i class="fa fa-rupee"></i>449</h6>
+     </div>
+     <div class="common-col col-men">
+       <img src="shortsmens.jpeg" alt="mensshorts">
+       <h3>Shorts</h3>
+       <h6>Starting<i class="fa fa-rupee"></i>99</h6>
+     </div>
+   </div>
+ </div>
+</section>
+</body>
+<footer>
+  <section>
+  <div class="ppp">
+    <div style="text-align: center";>
+    <h4>Get to Know Us</h4>
+<a href = "">About Us<br>
+Careers<br>
+Press Releases<br>
+Amazon Cares<br>
+Gift a Smile</br>
+  Facebook<br>
+  Twitter<br>
+  Instagram </a>
+</div>
+    <p>2021@all rights reserved by itc</p>
+</div>
+  </section>
+  </footer>
+
+
+</body>
+</html>
